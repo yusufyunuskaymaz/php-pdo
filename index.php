@@ -17,6 +17,9 @@
  }
 
  switch ($_GET["sayfa"]) {
+    case "index":
+        require_once "homepage.php";
+        break;
     case 'insert':
         require_once "insert.php";
         break;
@@ -29,7 +32,6 @@
 
 ?>
 
-    <h1>Deneme</h1>
 
 
     
